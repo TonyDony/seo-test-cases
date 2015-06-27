@@ -1,0 +1,3 @@
+url,factor,value,user_agent
+http://www.baidu.com/,title,"百度一下，你就知道",PC
+http://www.baidu.com/,title,"百度一下",Mobile
