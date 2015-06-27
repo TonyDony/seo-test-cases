@@ -41,3 +41,12 @@ data文件夹的内容： https://github.com/semseo/seo-test-cases/tree/master/d
   期望值，会拿来与网页上解析出来的值做对比，一样的才会通过，不一样的报错
 * user_agent
   留空则代表PC和Mobile都测试， PC则使用百度桌面的UA， Mobile则使用百度移动的UA
+
+### robots.txt
+测试本地的robots.txt文件是否与线上的一致。
+
+对应文件夹： robots.txt
+
+文件名规则： 域名.txt, 如 www.baidu.com.txt。 如果是 https 的网站， 则写为 https_www.baidu.com.txt。
+
+文件名内容： robots.txt 文件的内容。
