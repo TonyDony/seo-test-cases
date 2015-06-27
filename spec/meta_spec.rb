@@ -4,7 +4,7 @@ require 'tspider'
 
 data_files = SeoTestCases.data_files('meta')
 
-describe 'OPF' do
+describe 'Meta' do
 
   data_files.each do |f|
     rules = []
@@ -33,7 +33,7 @@ describe 'OPF' do
         user_agents.each_pair do |user_agent_name, user_agent|
           page = SeoTestCases.get_url(:url => url, :user_agent => user_agent)
 
-          it "should have meta: #{name}, UA: '#{user_agent_name}', URL: #{url}" do
+          it "should match meta: #{name}, UA: '#{user_agent_name}', URL: #{url}" do
             online_cache = page.meta(name)
             online_cache = online_cache.join('|') if online_cache.class == Array
 
