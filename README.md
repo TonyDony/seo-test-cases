@@ -4,7 +4,7 @@
 ## 安装
 * 运行环境： Linux/Mac & ruby 2.0+ 
 * bundler: `sudo gem install bundler`
-* clone 这些代码到本地
+* git clone 这个仓库到本地
 * 运行 `bundle install` ， 安装依赖
 * 运行 `rspec` 来测试
 
